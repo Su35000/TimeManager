@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  front:
+    build: .
+    volumes:
+      - .:/app
+      - /app/node_modules
+    env_file:
+      - .env
+    ports:
+      - "5173:5173"
+    command: "npm run dev"
+
+
+volumes:
+  postgres_data:

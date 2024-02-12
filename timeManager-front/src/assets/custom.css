@@ -1,0 +1,28 @@
+.datepicker-weekly .react-datepicker__week:hover {
+    .react-datepicker__day {
+        border-radius: 3px;
+        color: black;
+        font-weight: bold;
+        background: #bad9f1;
+    }
+}
+
+.chart-bar-container {
+    position: relative;
+    margin: auto;
+    width: 100vh;
+}
+
+.chart-doughnut-container {
+    position: relative;
+    margin: auto;
+    height: 50vh;
+    width: fit-content;
+}
+
+.chart-line-container {
+    position: relative;
+    margin: auto;
+    height: 60vh;
+    width: 90vh;
+}
